@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mark Esmade</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="body">
+		<nav id="menu" class="navbar-default navbar-static">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" data-target="#example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle collapsed">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">M . Esmade</a>
+				</div>
+
+				<div id="example-navbar-collapse-1" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<header id="main-header">
+			<div class="main-banner text-center">
+				<div class="container">
+					<div class="banner-content">
+						<img src="img/mack-thumb1.jpg" class="img-responsive img-circle center-block">
+						<h1>I'M <br /> 
+						<span class="main-color">MARK</span> ESMADE.</h1>
+						<p>Aspiring Frontend Developer</p>
+					</div>
+					<div class="learn">
+						<a href="#">Get Started</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="about">
+			<div class="container text-center">
+				<div class="about-content">	
+					<h2>About Me</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		
+		<div id="skills">
+			<div class="container skill-contents">
+				<div class="row">
+					<div class="col-md-16 col-lg-16">
+					  <div class="skills-heading text-center">
+					  	<h2>Skills</h2>
+					  </div>     
+						<div class="barWrapper">
+						 <span class="progressText"><B>HTML5</B></span>
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" >   
+						        <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>     
+						</div>
+						</div>
+
+						<div class="barWrapper">
+						 <span class="progressText"><B>CSS3</B></span>
+						<div class="progress ">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100" style="">
+						     <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span>  
+						  </div>				  
+						</div>
+						</div>
+
+						<div class="barWrapper">
+						 <span class="progressText"><B>BOOTSTRAP</B></span>
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+						     <span  class="popOver" data-toggle="tooltip" data-placement="top" title="65%"> </span>  
+						  </div>
+						</div>
+						</div>
+
+						<div class="barWrapper">
+						 <span class="progressText"><B>JQUERY</B></span>
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+						         <span  class="popOver" data-toggle="tooltip" data-placement="top" title="55%"> </span>  
+						  </div>
+						</div>
+						</div>
+
+						<div class="barWrapper">
+						 <span class="progressText"><B>MYSQL</B></span>
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+						      <span  class="popOver" data-toggle="tooltip" data-placement="top" title="70%"> </span>  
+						  </div>
+						</div>
+						</div>
+
+						  <div class="barWrapper">
+						 <span class="progressText"><B>PHP</B></span>
+						<div class="progress">
+						  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+						      <span  class="popOver" data-toggle="tooltip" data-placement="top" title="75%"> </span> 
+						  </div>
+						</div>
+
+					</div> <!-- End of col -->
+				</div> <!-- End of Row -->
+			</div> <!-- End of Container -->
+			</div>
+  </section> <!-- End of Section -->
+
+  <section id="">
+  	
+  </section>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function () { 
+		  $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
+			});  
+
+			$( window ).scroll(function() {   
+				 if($( window ).scrollTop() < 5000){  // scroll down abit and get the action   
+				  $(".progress-bar").each(function(){
+		   	 each_bar_width = $(this).attr('aria-valuenow');
+		   	 $(this).width(each_bar_width + '%');
+		 	 });
+		       
+		  	}  
+			});
+		</script>
+	</body>
+</html>

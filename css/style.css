@@ -1,0 +1,142 @@
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face{
+	font-family: Montserrat-BoldItalic;
+	src: url(../fonts/Montserrat-BoldItalic.ttf);
+}
+@font-face{
+	font-family: Montserrat-ExtraBold;
+	src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+body{
+	font-family: 'Montserrat-Regular', Helvetica;
+}
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+	/*NAVBAR*/
+
+
+
+	/*BANNER*/
+
+.main-banner{
+	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background.jpeg) no-repeat fixed 100%;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	z-index: -1;
+}
+.banner-content{
+	color: #fff;
+	font-size: 18px;
+	background-color: #00f4f5:
+	border: 1px solid #00f4f5;
+	z-index: 10;
+	margin-top: 100px;
+}
+.banner-content img{
+	height: 180px;
+	border: solid 5px #f3f3f3;
+}
+.banner-content h1{
+	font-size: 70px;
+	font-family: 'Montserrat-Bold', helvetica;
+	clear: both;
+	padding-top: 50px;s
+}
+.main-color{
+	color: #00d646;
+}
+.learn{
+	margin: 100px 0 300px 0;
+	text-align: center;
+}
+.learn a{
+	text-decoration: none;
+	color: #fff;
+}
+	
+	/*ABOUT ME*/
+#about .container{
+	position: relative;
+}
+
+#about .about-content{
+	position: absolute;
+	background-color: #333b50;
+	top: -200px;
+	left: 200px;
+	right: 200px;
+	color: #fff;
+	padding: 100px 70px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 5px rgba(0, 0, 0, 0.19);
+}
+#about .about-content p{
+	letter-spacing: 2px;
+	line-height: 30px;
+}
+
+	/*SKILLS*/
+#about{
+	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6)),url(../img/bg-skills.jpg) no-repeat fixed 100%;	
+	background-size: cover;
+	background-position: center center;
+}	
+.skill-contents{
+	margin-top: 300px;
+	width: 60%;
+}
+.skills-heading h2{
+	font-size: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.tooltip{ 
+  position:relative;
+  float:right;
+}
+.tooltip > .tooltip-inner {
+  background-color: #bec7d5; 
+  padding:5px 10px;  
+  color: #000;
+  font-weight:bold; 
+  font-size:13px;
+  font-family: 'Montserrat-Regular', Helvetica;
+}
+.popOver + .tooltip > .tooltip-arrow {	
+  border-left: 5px solid transparent; 
+  border-right: 5px solid transparent; 
+  border-top: 5px solid #bec7d5;
+}
+.progress{
+  border-radius:0;
+  overflow:visible;
+  height: 7px;
+  border-radius: 10px;
+  background: transparent;
+}
+.progress-bar{
+	background:rgb(0,214,70); 
+  -webkit-transition: width 3.5s ease-in-out;
+  transition: width 3.5s ease-in-out;
+}
+.progressText{
+	color: #bec7d5;
+	font-family: 'Montserrat-Regular', Helvetica;
+}
+#skills .row{
+	margin-bottom: 100px;
+}
+
