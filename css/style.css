@@ -18,6 +18,10 @@
 	font-family: Montserrat-ExtraBold;
 	src: url(../fonts/Montserrat-ExtraBold.ttf);
 }
+@font-face{
+	font-family: Montserrat-Thin;
+	src: url(../fonts/Montserrat-Thin.ttf);
+}
 body{
 	font-family: 'Montserrat-Regular', Helvetica;
 }
@@ -27,12 +31,19 @@ body{
 }
 	/*NAVBAR*/
 
-
+	.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+}
 
 	/*BANNER*/
 
 .main-banner{
-	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background.jpeg) no-repeat fixed 100%;
+	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background1.jpg) no-repeat fixed 100%;
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
@@ -44,7 +55,7 @@ body{
 	background-color: #00f4f5:
 	border: 1px solid #00f4f5;
 	z-index: 10;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 .banner-content img{
 	height: 180px;
@@ -52,9 +63,18 @@ body{
 }
 .banner-content h1{
 	font-size: 70px;
-	font-family: 'Montserrat-Bold', helvetica;
+  font-family: 'Montserrat-Regular', Helvetica;
 	clear: both;
-	padding-top: 50px;s
+	padding-top: 50px;
+}
+.banner-content p{
+	padding-top: 20px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+.banner-content .spacing{
+	letter-spacing: 15px;
+	padding-top: 20px;
 }
 .main-color{
 	color: #00d646;
@@ -86,21 +106,35 @@ body{
 #about .about-content p{
 	letter-spacing: 2px;
 	line-height: 30px;
+	margin-bottom: 60px;
+	display: block;
+	clear: both;
 }
-
-	/*SKILLS*/
 #about{
-	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6)),url(../img/bg-skills.jpg) no-repeat fixed 100%;	
+	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6)),url(../img/bg-skills1.jpg) no-repeat fixed 100%;	
 	background-size: cover;
 	background-position: center center;
-}	
+}
+.hire-button a{
+	color: #fff;
+	padding: 15px 30px;
+	font-weight: bold;
+	font-family: 'Montserrat-Thin', Helvetica;
+	border: solid 1px #00d646;
+	text-decoration: none;
+	margin-top: 50px;
+}
+	/*SKILLS*/
 .skill-contents{
-	margin-top: 300px;
+	margin-top: 400px;
 	width: 60%;
 }
 .skills-heading h2{
 	font-size: 50px;
 	color: #fff;
+	margin-bottom: 80px;
+	font-family: 'Montserrat-Bold', Helvetica;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 .tooltip{ 
@@ -123,20 +157,38 @@ body{
 .progress{
   border-radius:0;
   overflow:visible;
-  height: 7px;
+  height: 10px;
   border-radius: 10px;
   background: transparent;
 }
 .progress-bar{
 	background:rgb(0,214,70); 
   -webkit-transition: width 3.5s ease-in-out;
-  transition: width 3.5s ease-in-out;
+  transition: width 2.5s ease-in-out;
 }
 .progressText{
 	color: #bec7d5;
 	font-family: 'Montserrat-Regular', Helvetica;
+	letter-spacing: 2px;
 }
 #skills .row{
-	margin-bottom: 100px;
+	margin-bottom: 150px;
 }
 
+ /*LATEST WORK*/
+
+#portfolio .wrapper-bg{
+	background-color: #4d5366;
+}
+#portfolio .project{
+	margin: 150px 0 100px 0;
+	color: #fff;
+}
+#portfolio .project h2{
+	font-size: 50px;
+ 	font-family: 'Montserrat-Bold', Helvetica;
+ 	letter-spacing: 2px;
+}
+#portfolio .row{
+	margin-bottom: 150px;
+}
