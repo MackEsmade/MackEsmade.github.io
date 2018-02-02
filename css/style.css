@@ -31,19 +31,43 @@ body{
 }
 	/*NAVBAR*/
 
-.navbar-default {
- 	background-color:transparent !important;
-	border-color:transparent;
-	background-image:none;
-	box-shadow:none;
+.navbar{
+ 	background-color: transparent !important;
+	border-color :transparent;
+	background-image: none;
+	box-shadow: none;
   z-index: 10;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #555;
+  color: #00d646;
   background-color: transparent;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+  color: #00d646;
+}
+.navbar-default .navbar-nav>.active>a{
+	color: #BEC7D5;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #BEC7D5;
+  font-family: 'Montserrat-Thin', Helvetica;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #00d646;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand .brand-highlight{
+    color: #00d646;
+}
+
 
 	/*BANNER*/
+
 
 .main-banner{
 	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background-image.jpeg) no-repeat fixed 100%;
