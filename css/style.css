@@ -31,14 +31,16 @@ body{
 }
 	/*NAVBAR*/
 
-	.navbar-default {
-    background-color: transparent !important;
-    border-color: transparent !important;
-    z-index: 10;
+.navbar-default {
+ 	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+  z-index: 10;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: transparent;
+  color: #555;
+  background-color: transparent;
 }
 
 	/*BANNER*/
