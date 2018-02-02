@@ -80,7 +80,7 @@ body{
 	font-size: 18px;
 	background-color: #00f4f5:
 	border: 1px solid #00f4f5;
-	margin-top: 200px;
+	margin: 250px 0 400px 0;
 }
 .banner-content h1{
 	font-size: 70px;
@@ -100,14 +100,6 @@ body{
 .main-color{
 	color: #00d646;
 	font-family: 'Montserrat-Thin';
-}
-.learn{
-	margin: 100px 0 300px 0;
-	text-align: center;
-}
-.learn a{
-	text-decoration: none;
-	color: #fff;
 }
 	
 	/*ABOUT ME*/
