@@ -108,7 +108,8 @@ body{
 }
 .about-content img{
 	height: 150px;
-	border: solid 3px #00d646;
+	border: solid 3px #fff;
+	margin-top: 40px;
 }
 #about .about-img{
 	padding-bottom: 50px;
@@ -137,19 +138,27 @@ body{
 	background-position: center center;
 	height: 100%;
 }
-.hire-button a{
+.hire-button1 a{
 	color: #fff;
-	padding: 15px 30px;
+	padding: 10px 40px;
 	font-weight: bold;
-	font-family: 'Montserrat-Thin', Helvetica;
-	border: solid 1px #00d646;
+	font-family: 'Montserrat-Regular', Helvetica;
+	border: solid 2px #00d646;
 	text-decoration: none;
-	margin-top: 50px;
+	margin: 30px 0 40px 0;
+	display: inline-block;
+	transition: 0.5s;
+	letter-spacing: 2px;
+	clear: both;
+}
+.hire-button1 a:hover{
+	border: solid 2px #fff;
+	color: #00d646;
 }
 	/*SKILLS*/
 .skill-contents{
-	margin-top: 500px;
-	width: 60%;
+	margin-top: 700px;
+	width: 70%;
 }
 .skills-heading h2{
 	font-size: 50px;
@@ -225,7 +234,7 @@ body{
 	margin-bottom: 30px
 }
 #education .row-2{
-	margin-bottom: 100px
+	margin-bottom: 300px
 }
 #education .ed-content{
 	color: #fff;
@@ -252,3 +261,97 @@ body{
 	font-size: 18px;
 	color: #00d646;
 }
+
+	/*CONTACT*/
+
+#contact .contact-bg{
+	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80, 0.6)),url(../img/contact-img.jpg) no-repeat fixed 100%;	
+	background-size: cover;
+	background-position: center center;
+	height: 650px;
+}
+#contact .container{
+	position: relative;
+}
+#contact .contact-content{
+	position: absolute;
+	background-color: #333b50;
+	top: -200px;
+	left: 200px;
+	right: 200px;
+	color: #fff;
+	padding: 50px 50px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 5px rgba(0, 0, 0, 0.19);
+	box-sizing: border-box;
+	color: #fff;
+}
+#contact .contact-content h2{
+	margin-top: 40px;
+	font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px 
+}
+#contact .contact-content .row{
+	margin: 100px 0 50px 0;
+}
+#contact .contact-content p{
+	font-family: 'Montserrat-Thin', Helvetica;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #fff;
+}
+#contact .social-icon{
+	margin: 0px 0 30px 0;
+	list-style-type: none;
+}
+#contact .social-icon li{
+	display: inline;
+	padding: 10px;
+}
+#contact .row h4{
+	padding-bottom: 20px;
+}
+#contact .social-icon a{
+	color: #333b50;
+	font-size: 15px;
+	transition: .5s;
+}
+#contact .social-icon .fa-inverse{
+	color: #fff;
+	transition: .2s;
+}
+#contact .social-icon a:hover{
+	color: #fff;
+}
+#contact .social-icon a:hover .fa-inverse{
+	color: #333b50;
+	font-size: 15px;
+}
+.hire-button2 a{
+	color: #fff;
+	padding: 10px 40px;
+	font-weight: bold;
+	font-family: 'Montserrat-Regular', Helvetica;
+	border: solid 2px #00d646;
+	text-decoration: none;
+	margin: 30px 0 40px 0;
+	display: inline-block;
+	transition: 0.5s;
+	letter-spacing: 2px;
+}
+.hire-button2 a:hover{
+	border: solid 2px #fff;
+	color: #00d646;
+}
+
+	/*FOOTER*/
+
+footer{
+	background: #333b50;
+	color: #BEC7D5;
+}	
+footer p{
+	font-size: 13px;
+	margin: 50px 0 50px 0;
+	letter-spacing: 2px;
+}	
