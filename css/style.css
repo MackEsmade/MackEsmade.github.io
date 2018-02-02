@@ -34,6 +34,7 @@ body{
 	.navbar-default {
     background-color: transparent !important;
     border-color: transparent !important;
+    z-index: 10;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
@@ -43,23 +44,17 @@ body{
 	/*BANNER*/
 
 .main-banner{
-	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background1.jpg) no-repeat fixed 100%;
+	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background-image.jpeg) no-repeat fixed 100%;
 	background-size: cover;
 	background-position: center center;
 	height: 100%;
-	z-index: -1;
 }
 .banner-content{
 	color: #fff;
 	font-size: 18px;
 	background-color: #00f4f5:
 	border: 1px solid #00f4f5;
-	z-index: 10;
 	margin-top: 200px;
-}
-.banner-content img{
-	height: 180px;
-	border: solid 5px #f3f3f3;
 }
 .banner-content h1{
 	font-size: 70px;
@@ -78,6 +73,7 @@ body{
 }
 .main-color{
 	color: #00d646;
+	font-family: 'Montserrat-Thin';
 }
 .learn{
 	margin: 100px 0 300px 0;
@@ -92,6 +88,13 @@ body{
 #about .container{
 	position: relative;
 }
+.about-content img{
+	height: 150px;
+	border: solid 3px #00d646;
+}
+#about .about-img{
+	padding-bottom: 50px;
+}
 
 #about .about-content{
 	position: absolute;
@@ -100,20 +103,21 @@ body{
 	left: 200px;
 	right: 200px;
 	color: #fff;
-	padding: 100px 70px;
+	padding: 50px 70px;
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 5px rgba(0, 0, 0, 0.19);
+	box-sizing: border-box;
 }
 #about .about-content p{
 	letter-spacing: 2px;
 	line-height: 30px;
 	margin-bottom: 60px;
 	display: block;
-	clear: both;
 }
 #about{
 	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6)),url(../img/bg-skills1.jpg) no-repeat fixed 100%;	
 	background-size: cover;
 	background-position: center center;
+	height: 100%;
 }
 .hire-button a{
 	color: #fff;
@@ -126,7 +130,7 @@ body{
 }
 	/*SKILLS*/
 .skill-contents{
-	margin-top: 400px;
+	margin-top: 500px;
 	width: 60%;
 }
 .skills-heading h2{
@@ -140,19 +144,19 @@ body{
 .tooltip{ 
   position:relative;
   float:right;
+  z-index: 1;
 }
 .tooltip > .tooltip-inner {
-  background-color: #bec7d5; 
+  background-color: transparent; 
   padding:5px 10px;  
-  color: #000;
-  font-weight:bold; 
-  font-size:13px;
+  color: #fff; 
+  font-size:12px;
   font-family: 'Montserrat-Regular', Helvetica;
 }
 .popOver + .tooltip > .tooltip-arrow {	
   border-left: 5px solid transparent; 
   border-right: 5px solid transparent; 
-  border-top: 5px solid #bec7d5;
+  border-top: 5px solid #00d646;
 }
 .progress{
   border-radius:0;
@@ -162,14 +166,14 @@ body{
   background: transparent;
 }
 .progress-bar{
-	background:rgb(0,214,70); 
+	background: #00d646; 
   -webkit-transition: width 3.5s ease-in-out;
   transition: width 2.5s ease-in-out;
 }
 .progressText{
 	color: #bec7d5;
 	font-family: 'Montserrat-Regular', Helvetica;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 }
 #skills .row{
 	margin-bottom: 150px;
@@ -178,17 +182,55 @@ body{
  /*LATEST WORK*/
 
 #portfolio .wrapper-bg{
-	background-color: #4d5366;
+	background: linear-gradient(rgba(77, 83, 102, 1), rgba(77, 83, 102, 1),rgba(77, 83, 102, 0.8)),url(../img/bg-cv1.jpg) no-repeat 0 700px;	
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
 }
 #portfolio .project{
-	margin: 150px 0 100px 0;
+	margin: 100px 0 100px 0;
 	color: #fff;
 }
 #portfolio .project h2{
 	font-size: 50px;
- 	font-family: 'Montserrat-Bold', Helvetica;
- 	letter-spacing: 2px;
+ 	font-family: 'Montserrat-Regular', Helvetica;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
 }
 #portfolio .row{
-	margin-bottom: 150px;
+	margin-bottom: 100px;
+}
+
+	/*EDUCATION*/
+
+#education .row-1{
+	margin-bottom: 30px
+}
+#education .row-2{
+	margin-bottom: 100px
+}
+#education .ed-content{
+	color: #fff;
+	margin: 100px 0 100px 0;
+}
+#education .ed-content h2{
+	margin: 100px 0;
+	font-size: 50px;
+ 	font-family: 'Montserrat-Regular', Helvetica;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
+}
+#education .row p{
+	font-family: 'Montserrat-Thin', Helvetica;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: #BEC7D5;
+}
+#education .row h3{
+	font-family: 'Montserrat-Thin', Helvetica;
+	font-weight: bold;
+}
+#education .date{
+	font-size: 18px;
+	color: #00d646;
 }
