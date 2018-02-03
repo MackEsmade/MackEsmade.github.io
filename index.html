@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Mark Esmade</title>
+		<title>Mark Esmade | Welcome</title>
+		<link rel="icon" type="image/png" href="img/logo-me.png">
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -59,7 +60,7 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						<div class="hire-button1">
-							<a href=" ">HIRE ME</a>
+							<a href="Mark-Esmade-CV.docx" download="Mark-Esmade-CV">DOWNLOAD RESUME</a>
 						</div>
 					</div>	
 				</div>
@@ -223,9 +224,24 @@
 	  			</div>	
 	  			<div class="hire-button">
 							<a href=" "><button type="button" class="btn btn-primary hire-button2">HIRE ME</button></a>
-						</div>
+					</div>
   			</div>
   		</div>
+  		<!-- <div id="mainform">
+  			<form id="form" action="contact_form.php" method="post">
+  				<h3>Contact Form</h3>
+  				<p id="returnmessage"></p>
+  				<label>Name:</label>
+  				<input type="text" id="name" placeholder="Name"/>
+  				<label>Email:</label>	
+  				<input type="text" id="email" placeholder="Email"/>
+  				<label>Contact Number:</label>
+  				<input type="text" id="contact-number" 	placeholder="10 digit Mobile no."/>
+  				<label>Message</label>
+  				<textarea id="message" placeholder="Message...."></textarea>
+  				<button type="button" class="btn btn-primary" id="submit" value="Send Message"></button>
+  			</form>
+  		</div> -->
   	</div>  		
   </section>
 
@@ -237,6 +253,8 @@
 		</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/contact_form.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main-scroll.js"></script>
 	<script type="text/javascript">
@@ -245,7 +263,7 @@
 		});  
 
 		$( window ).scroll(function() {   
-			 if($( window ).scrollTop() < 10000){  // scroll down abit and get the action   
+			 if($( window ).scrollTop() < 15000){  // scroll down abit and get the action   
 			  $(".progress-bar").each(function(){
 	   	 each_bar_width = $(this).attr('aria-valuenow');
 	   	 $(this).width(each_bar_width + '%');
@@ -263,9 +281,7 @@
 		        $target = $(target);
 		        $('html, body').stop().animate({
 		            'scrollTop':  $target.offset().top - headerHeight //no need of parseInt here
-		        }, 1000, 'swing', function () {
-		            window.location.hash = target;
-		        });
+		        }, 1000); 
 		    });
 		});
 		</script>
