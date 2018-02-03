@@ -360,7 +360,7 @@ footer p{
 
 	/*MEDIA QUERIES*/
 
-@media screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px){
 	#about .about-img{
 		padding-bottom: 40px;
 	}
@@ -401,7 +401,7 @@ footer p{
 	}
 }
 
-@media screen and (max-width: 1199px){
+@media only screen and (max-width: 1199px){
 	#contact .contact-content{
 		position: absolute;
 		background-color: #333b50;
@@ -418,7 +418,7 @@ footer p{
 	}
 }	
 
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 	#about .about-img{
 		padding-bottom: 40px;
 	}
@@ -448,7 +448,7 @@ footer p{
 	}
 }	
 
-@media screen and (max-width: 990px){
+@media only screen and (max-width: 990px){
 	#about .about-img{
 		padding-bottom: 40px;
 	}
@@ -486,7 +486,7 @@ footer p{
 	}
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	#about .about-img{
 		padding-bottom: 40px;
 	}
@@ -531,7 +531,7 @@ footer p{
 	}
 }	
 
-@media screen and (max-width: 425px){
+@media only screen and (max-width: 425px){
 	.banner-content{
 	color: #fff;
 	font-size: 18px;
@@ -608,7 +608,7 @@ footer p{
 	}
 }	
 
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
 	.banner-content{
 		font-size: 15px;
 		background-color: #00f4f5:
@@ -634,7 +634,7 @@ footer p{
 	}
 	.skill-contents{
 		margin-top: 650px;
-		width: 90%;
+		width: 95%;
 	}
 	.skills-heading h2{
 		font-size: 50px;
@@ -680,7 +680,7 @@ footer p{
 	}
 }
 
-@media screen and (max-width: 320px){
+@media only screen and (max-width: 320px){
 	.banner-content{
 		font-size: 15px;
 		margin: 100px 0 380px 0;
