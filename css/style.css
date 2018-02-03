@@ -193,8 +193,8 @@ body{
 }
 .progress-bar{
 	background: #00d646; 
-  -webkit-transition: width 3.5s ease-in-out;
-  transition: width 2.5s ease-in-out;
+  -webkit-transition: width 5s ease-in-out;
+  transition: width 5s ease-in-out;
 }
 .progressText{
 	color: #bec7d5;
