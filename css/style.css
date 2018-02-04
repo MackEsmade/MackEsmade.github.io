@@ -64,6 +64,10 @@ body{
 .navbar-default .navbar-brand {
     color: #fff;
 }
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
 .navbar-default .navbar-brand .brand-highlight{
     color: #00d646;
 }
@@ -108,7 +112,7 @@ body{
 	color: #00d646;
 	font-family: 'Montserrat-Thin';
 }
-	
+
 	/*ABOUT ME*/
 .about-content img{
 	height: 150px;
@@ -141,14 +145,14 @@ body{
 .hire-button1 a{
 	color: #fff;
 	padding: 10px 40px;
-	font-weight: bold;
 	font-family: 'Montserrat-Regular', Helvetica;
 	border: solid 1px #00d646;
 	text-decoration: none;
 	margin: 30px 0 40px 0;
 	display: inline-block;
+	font-size: 14px;
 	transition: 0.5s;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 .hire-button1 a:hover{
 	border: solid 1px #fff;
@@ -225,6 +229,56 @@ body{
 }
 #portfolio .row{
 	margin-bottom: 100px;
+}
+#portfolio .col-md-4 {
+    padding-bottom: 10px;
+}
+.image-relative-1, .image-relative-2, .image-relative-3{
+	position: relative;
+	transition: all 0.8s;
+	overflow: hidden;
+}
+.hover-content-1, .hover-content-2, .hover-content-3{
+	position: absolute;
+	opacity: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 10%);
+  -ms-transform: translate(-50%, 10%);
+  -webkit-transition: all 0.5s;
+  cursor: pointer;
+}
+.for-hover img{
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.for-hover:hover img{
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+	-webkit-filter: blur(5px);
+   filter: blur(5px);
+}
+.for-hover:hover .img-1,
+.for-hover:hover .img-2,
+.for-hover:hover .img-3{
+	opacity: 1;
+	transition: all 0.5s;
+}
+.for-hover:hover .hover-content-1, .for-hover:hover .hover-content-2, .for-hover:hover .hover-content-3{
+	opacity: 1;
+	transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	-webkit-transition: all 0.5s;
+}
+.for-hover p{
+	color: #333;
+}
+.view .fa-search{
+	font-size: 40px;
+	color: #333b50;
 }
 
 	/*EDUCATION*/

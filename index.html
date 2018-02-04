@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mark Esmade | Welcome</title>
 		<link rel="icon" type="image/png" href="img/logo-me.png">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet"  href="css/lightbox.css" type="text/css">
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -19,7 +21,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a href="#" class="navbar-brand"><span class="brand-highlight">M .</span> Esmade</a>
+					<a href="#body" class="navbar-brand"><span class="brand-highlight">M .</span> Esmade</a>
 				</div>
 
 				<div id="example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -40,7 +42,7 @@
 				<div class="container">
 					<div class="banner-content">
 						<h1>I'M <br /> 
-						<span class="main-color spacing">MARK</span> <span class="spacing">ESMADE.</span> </h1>
+						<span class="wow flash main-color spacing" data-wow-duration="3000ms">MARK</span> <span class="spacing">ESMADE.</span> </h1>
 						<p>FRONTEND DEVELOPER</p>
 					</div>
 				</div>
@@ -52,15 +54,15 @@
 				<div class="row about-content" id="about-scroll">	
 					<div class="col-lg-12">				
 						<div class="about-img">
-						<img src="img/mack-thumb.jpg" class="img-responsive img-circle center-block">
+						<img src="img/mack-thumb.jpg" class="wow zoomIn img-responsive img-circle center-block" data-wow-duration="1000ms">
 						</div>
-						<p>Hi, I'm Mark A. Esmade. I'm a Frontend Developer from Philippines. <br /> <br />Ut enim ad minim veniam,
+						<p class="wow fadeInUp" data-wow-duration="1500ms">Hi, I'm Mark A. Esmade. I'm a Frontend Developer from Philippines. <br /> <br />Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<div class="hire-button1">
-							<a href="Mark-Esmade-CV.docx" download="Mark-Esmade-CV">DOWNLOAD RESUME</a>
+						<div class="wow pulse hire-button1" data-wow-duration="2000ms">
+							<a href="Mark-Esmade-CV.pdf" download="Mark-Esmade-CV">DOWNLOAD RESUME</a>
 						</div>
 					</div>	
 				</div>
@@ -71,7 +73,7 @@
 				<div class="row">
 					<div class="col-md-16 col-lg-16">
 					  <div class="skills-heading text-center">
-					  	<h2>Skills</h2>
+					  	<h2 class="wow zoomIn" data-wow-duration="1500ms">Skills</h2>
 					  </div>     
 						<div class="barWrapper">
 						 <span class="progressText"><B>HTML5/CSS3</B></span>
@@ -135,18 +137,46 @@
   	<div class="wrapper-bg">
 	  	<div class="container text-center">
 				<div class="project">
-					<h2>PORTFOLIO</h2>
+					<h2 class="wow zoomIn" data-wow-duration="1500ms">PORTFOLIO</h2>
 					<h3>MY LATEST WORK</h3>
 				</div>  	
 	  		<div class="row">
 	  			<div class="col-md-4">
-	  				<img src="img/mogo-thumb.jpg" class="img-responsive center-block">
+	  				<div class="wow fadeInLeftBig for-hover" data-wow-duration="2000ms">
+	  					<div class="image-relative-1">
+	  					<img src="img/mogo-thumb.jpg" class="img-responsive center-block img-1">
+	  						<div class="hover-content-1">
+	  							<div class="view">
+	  									<a href="img/mogo-work.jpg" data-lightbox="image-1" data-title="First PSD File"><i class="fa fa-search"></i></a>
+	  							</div>
+	  						</div>
+	  						</a>
+	  					</div>
+	  				</div>
+	  			</div>	  			
+	  			<div class="col-md-4">
+	  				<div class="wow slideInUp for-hover" data-wow-duration="2000ms">
+	  					<div class="image-relative-2">
+	  						<img src="img/lazercom-thumb.jpg" class="img-responsive center-block img-2">
+	  						<div class="hover-content-2">
+	  							<div class="view">
+	  								<a href="img/lazercom-work.jpg" data-lightbox="image-1" data-title="First Project"><i class="fa fa-search"></i></a>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
 	  			</div>
 	  			<div class="col-md-4">
-	  				<img src="img/halcyon-thumb.jpg" class="img-responsive center-block">
-	  			</div>
-	  			<div class="col-md-4">
-	  				<img src="img/lazercom-thumb.jpg" class="img-responsive center-block">
+	  				<div class="wow fadeInRightBig for-hover" data-wow-duration="2000ms">
+	  					<div class="image-relative-3">
+	  						<img src="img/halcyon-thumb.jpg" class="img-responsive center-block img-3"></a>
+	  						<div class="hover-content-3">
+	  							<div class="view">
+	  								<a href="img/halcyon-work.jpg" data-lightbox="image-1" data-title="First Project"><i class="fa fa-search"></i></a>
+	  							</div>
+	  						</div>
+	  					</div>
+	  				</div>
 	  			</div>
 	  		</div>
 	  	</div>
@@ -155,8 +185,8 @@
   <div id="education">
   		<div class="container">
   			<div class="ed-content">
-  				<h2 class="text-center">CURRICULUM VITAE</h2>
-  				<div class="row row-1">
+  				<h2 class="wow zoomIn text-center" data-wow-duration="2000ms">CURRICULUM VITAE</h2>
+  				<div class="wow flipInX row row-1" data-wow-duration="2000ms">
   					<div class="col-md-4">
   						<h3>EDUCATION</h3>
   					</div>
@@ -174,7 +204,7 @@
 							</p>
   					</div>
   				</div>
-  				<div class="row row-2">
+  				<div class="wow flipInX row row-2" data-wow-duration="2500ms">
   					<div class="col-md-4">
   					</div>
   					<div class="col-md-4">
@@ -198,8 +228,8 @@
   	<div class="contact-bg">
   		<div class="container-fluid text-center">
   			<div class="contact-content" id="contact-scroll">
-  				<h2>LET'S GET IN TOUCH</h2> 					
-	  			<div class="row">
+  				<h2 class="wow zoomIn" data-wow-duration="3000ms">LET'S GET IN TOUCH</h2> 					
+	  			<div class="wow fadeInUp row" data-wow-duration="3000ms">
 	  				<div class="col-md-4">
 	  					<h4>ADDRESS</h4>
 	  					<p>Bagong Silang, Caloocan City, Philippines 1428</p>
@@ -222,8 +252,8 @@
 	  					<li><a href=""><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
 	  				</ul>
 	  			</div>	
-	  			<div class="hire-button">
-							<a href=" "><button type="button" class="btn btn-primary hire-button2">HIRE ME</button></a>
+	  			<div class="wow tada hire-button" data-wow-duration="2500">
+							<a href=""><button type="button" class="btn btn-primary hire-button2">HIRE ME</button></a>
 					</div>
   			</div>
   		</div>
@@ -254,9 +284,16 @@
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/contact_form.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main-scroll.js"></script>
+	<script type="text/javascript">
+	    	$(document).ready(function(){
+	    		new WOW().init();
+	    	})
+	    </script>
 	<script type="text/javascript">
 		$(function () { 
 	  $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
@@ -271,7 +308,6 @@
 	  	}  
 		});
 	</script>
-
 	<script type="text/javascript">
 		$(document).ready(function(){
 			var headerHeight = $('nav').outerHeight();
