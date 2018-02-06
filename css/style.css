@@ -24,7 +24,8 @@
 }
 body{
 	font-family: 'Montserrat-Regular', Helvetica;
-}
+	position: relative;
+}	
 *{
 	margin: 0 auto;
 	padding: 0;
@@ -45,9 +46,6 @@ body{
   color: #00d646;
   background-color: transparent;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
-  color: #00d646;
-}
 .navbar-default .navbar-nav>.active>a{
 	color: #BEC7D5;
 }
@@ -57,7 +55,10 @@ body{
   font-weight: bold;
   text-transform: uppercase;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:focus{
+	color: #BEC7D5;
+}
+.navbar-default .navbar-nav>li>a:hover {
   color: #00d646;
   background-color: transparent;
 }
@@ -70,6 +71,9 @@ body{
 }
 .navbar-default .navbar-brand .brand-highlight{
     color: #00d646;
+}
+.navbar-default .navbar-nav>.active>a{
+	color: #00d646;
 }
 .on {
 	background-color: #3a4561 !important;
