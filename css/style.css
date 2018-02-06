@@ -75,11 +75,14 @@ body{
 .navbar-default .navbar-nav>.active>a{
 	color: #00d646;
 }
-.on {
+.on{
 	background-color: #3a4561 !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
- }
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
 
 	/*BANNER*/
 
