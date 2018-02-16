@@ -101,7 +101,7 @@ body{
 
 
 .main-banner{
-	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80,0.6)), url(../img/background-image.jpeg) no-repeat 100%;
+	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80,0.6)), url(../img/background-image.jpeg) no-repeat fixed 100%;
 	background-size: cover;
 	background-position: center center;
 
