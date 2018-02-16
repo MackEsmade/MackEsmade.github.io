@@ -101,10 +101,11 @@ body{
 
 
 .main-banner{
-	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80,0.8)),url(../img/background-image.jpeg) no-repeat fixed 100%;
+	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80,0.6))/*,url(../img/background-image.jpeg) no-repeat 100%*/;
 	background-size: cover;
 	background-position: center center;
-	height: 100%;
+	background-repeat: no-repeat;
+
 }
 .banner-content{
 	color: #fff;
@@ -144,7 +145,7 @@ body{
 }
 #about .about-content{
 	background-color: #333b50;
-	width: 55%;
+	width: 60%;
   margin: -200px auto;
 	color: #fff;
 	padding: 50px 70px;
@@ -157,10 +158,10 @@ body{
 	display: block;
 }
 #about{
-	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6)),url(../img/bg-skills1.jpg) no-repeat fixed 100%;	
+	background: linear-gradient(rgba(51, 59, 80, 0.6), rgba(51, 59, 80, 0.6))/*,url(../img/bg-skills1.jpg) no-repeat fixed 100%*/;	
 	background-size: cover;
 	background-position: center center;
-	height: 100%;
+	background-repeat: no-repeat;
 }
 .hire-button1 a{
 	color: #fff;
@@ -186,7 +187,7 @@ body{
 .skills-heading h2{
 	font-size: 50px;
 	color: #fff;
-	margin-bottom: 80px;
+	margin: 80px auto;
 	font-family: 'Montserrat-Bold', Helvetica;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -232,10 +233,10 @@ body{
  /*LATEST WORK*/
 
 #portfolio .wrapper-bg{
-	background: linear-gradient(rgba(77, 83, 102, 1), rgba(77, 83, 102, 1),rgba(77, 83, 102, 0.8)),url(../img/bg-cv1.jpg) no-repeat 0 700px;	
+	background: linear-gradient(rgba(77, 83, 102, 1), rgba(77, 83, 102, 1),rgba(77, 83, 102, 0.8))/*,url(../img/bg-cv1.jpg) no-repeat 0 700px*/;	
 	background-size: cover;
 	background-position: center center;
-	height: 100%;
+	background-repeat: no-repeat;
 }
 #portfolio .project{
 	margin: 100px 0 100px 0;
@@ -338,8 +339,9 @@ body{
 	/*CONTACT*/
 
 #contact .contact-bg{
-	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80, 0.6)),url(../img/contact-img.jpg) no-repeat fixed 100%;	
+	background: linear-gradient(rgba(51, 59, 80, 0.7), rgba(51, 59, 80, 0.6))/*,url(../img/	.jpg) no-repeat fixed 100%*/;	
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center center;
 	height: 650px;
 }
