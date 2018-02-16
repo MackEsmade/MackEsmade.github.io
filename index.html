@@ -12,6 +12,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
 	<body id="body">
+		<div id="preloader"></div>
 		<nav id="menu" class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
@@ -140,7 +141,7 @@
 				</div>  	
 	  		<div class="row">
 	  			<div class="col-md-4">
-	  				<div class="wow fadeInLeftBig for-hover" data-wow-duration="2000ms">
+	  				<div class="wow fadeInUp for-hover" data-wow-duration="1000ms">
 	  					<div class="image-relative-1">
 	  					<img src="img/mogo-thumb.jpg" class="img-responsive center-block img-1">
 	  						<div class="hover-content-1">
@@ -153,7 +154,7 @@
 	  				</div>
 	  			</div>	  			
 	  			<div class="col-md-4">
-	  				<div class="wow slideInUp for-hover" data-wow-duration="2000ms">
+	  				<div class="wow fadeInUp for-hover" data-wow-duration="2000ms">
 	  					<div class="image-relative-2">
 	  						<img src="img/lazercom-thumb.jpg" class="img-responsive center-block img-2">
 	  						<div class="hover-content-2">
@@ -165,7 +166,7 @@
 	  				</div>
 	  			</div>
 	  			<div class="col-md-4">
-	  				<div class="wow fadeInRightBig for-hover" data-wow-duration="2000ms">
+	  				<div class="wow fadeInUp for-hover" data-wow-duration="3000ms">
 	  					<div class="image-relative-3">
 	  						<img src="img/halcyon-thumb.jpg" class="img-responsive center-block img-3"></a>
 	  						<div class="hover-content-3">
@@ -184,7 +185,7 @@
   		<div class="container">
   			<div class="ed-content">
   				<h2 class="wow zoomIn text-center" data-wow-duration="2000ms">CURRICULUM VITAE</h2>
-  				<div class="wow flipInX row row-1" data-wow-duration="2000ms">
+  				<div class="wow fadeIn row row-1" data-wow-duration="2000ms">
   					<div class="col-md-4">
   						<h3>EDUCATION</h3>
   					</div>
@@ -202,7 +203,7 @@
 							</p>
   					</div>
   				</div>
-  				<div class="wow flipInX row row-2" data-wow-duration="2500ms">
+  				<div class="wow fadeIn row row-2" data-wow-duration="2500ms">
   					<div class="col-md-4">
   					</div>
   					<div class="col-md-4">
@@ -284,37 +285,13 @@
 <!-- 	<script src="js/contact_form.js"></script> -->
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/main-scroll.js"></script>
+	<script src="js/progress-bar.js"></script>
+	<script src="js/scrollspy.js"></script>
+	<script src="js/preloader.js"></script>
 	<script type="text/javascript">
 	    	$(document).ready(function(){
 	    		new WOW().init();
 	    	})
-	    </script>
-	<script type="text/javascript">
-		$(function () { 
-	  $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
-		});  
-
-		$( window ).scroll(function() {   
-			 if($( window ).scrollTop() < 15000){  // scroll down abit and get the action   
-			  $(".progress-bar").each(function(){
-	   	 each_bar_width = $(this).attr('aria-valuenow');
-	   	 $(this).width(each_bar_width + '%');
-	 	 });       
-	  	}  
-		});
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			var headerHeight = $('nav').outerHeight();
-		    $('nav a[href^="#"]').on('click',function (e) {
-		        e.preventDefault();
-		        var target = this.hash;
-		        $target = $(target);
-		        $('html, body').stop().animate({
-		            'scrollTop':  $target.offset().top - headerHeight //no need of parseInt here
-		        }, 1000); 
-		    });
-		});
-		</script>
+ </script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-    // SCROLLSPY
+    //NAVBAR
     
 		$(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
