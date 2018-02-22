@@ -49,7 +49,7 @@ body{
 	transition: all 0.9s;
 } 
 .navbar{
- 	background-color: transparent !important;
+ 	background-color: rgba(58, 69, 97, .9) !important;
 	border-color :transparent;
 	background-image: none;
 	box-shadow: none;
@@ -76,14 +76,14 @@ body{
   background-color: transparent;
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+  color: #fff;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color: #fff;
-    background-color: transparent;
+  color: #fff;
+  background-color: transparent;
 }
 .navbar-default .navbar-brand .brand-highlight{
-    color: #00d646;
+  color: #00d646;
 }
 .navbar-default .navbar-nav>.active>a{
 	color: #00d646;
@@ -94,7 +94,7 @@ body{
 	padding: 10px 0 !important;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 	/*BANNER*/
@@ -251,7 +251,7 @@ body{
 	margin-bottom: 100px;
 }
 #portfolio .col-md-4 {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .image-relative-1, .image-relative-2, .image-relative-3{
 	position: relative;
@@ -278,8 +278,8 @@ body{
 .for-hover:hover img{
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
-	-webkit-filter: blur(5px);
-   filter: blur(5px);
+	-webkit-filter: blur(3px);
+  filter: blur(2px);
 }
 .for-hover:hover .img-1,
 .for-hover:hover .img-2,
@@ -438,23 +438,23 @@ footer p{
 	padding: 50px 50px;
 	}
 	#about .about-content p{
-		letter-spacing: 2px;
-		line-height: 30px;
-		margin-bottom: 60px;
-		display: block;
+	letter-spacing: 2px;
+	line-height: 30px;
+	margin-bottom: 60px;
+	display: block;
 	}
 	#contact .contact-content{
-		background-color: #333b50;
-		width: 60%;
-	  margin: -200px auto;
-		color: #fff;
-		padding: 50px 30px;
+	background-color: #333b50;
+	width: 60%;
+  margin: -200px auto;
+	color: #fff;
+	padding: 50px 30px;
 	}
 	#contact .contact-content h2{
-		margin-top: 40px;
-		font-size: 30px;
-	  font-weight: bold;
-	  letter-spacing: 5px 
+	margin-top: 40px;
+	font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px 
 	}
 }
 
