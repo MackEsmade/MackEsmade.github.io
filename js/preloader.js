@@ -3,7 +3,7 @@
 
 // site preloader -- also uncomment the div in the header and the css style for #preloader
 $(window).load(function(){
-	$('#preloader').delay(500).slideUp('slow',function(){$(this).remove();});
+	$('#preloader').delay(1000).slideUp('slow',function(){$(this).remove();});
 });
 
 });
