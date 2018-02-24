@@ -96,6 +96,37 @@ body{
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
+.navbar-toggle .icon-bar:nth-child(2), .navbar-toggle .icon-bar:nth-child(3), .navbar-toggle .icon-bar:nth-child(4) {
+	top: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+     background-color: #ddd;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+	 
+}
+.navbar-toggle.active .icon-bar:nth-child(2) {
+	  top: 6px;
+	  transform: rotate(45deg);
+	  background-color: #00d646;
+}
+
+.navbar-toggle.active .icon-bar:nth-child(3) {
+	  width: 0%;
+	  opacity: 0;
+}
+
+.navbar-toggle.active .icon-bar:nth-child(4) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+	  background-color: #00d646;
+}
+
 
 	/*BANNER*/
 
