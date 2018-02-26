@@ -168,7 +168,30 @@ body{
 .about-content img{
 	height: 150px;
 	border: solid 3px #fff;
-	margin-top: 40px;
+	margin-top: 45px;
+}
+.read-more-box{
+	max-height: 290px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 50px;
+}
+.read-more-box .read-more { 
+	position: absolute; 
+	bottom: -88px; 
+	width: 100%;
+	padding: 30px 0;
+	background-image: linear-gradient(transparent, rgba(51, 59, 80, 1));			
+}			
+.read-more-box .read-more a{
+	color: #000;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0px 5px;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 13px;
+	border: solid 1px #ddd;
 }
 #about .about-img{
 	padding-bottom: 50px;
@@ -564,6 +587,9 @@ footer p{
 	.navbar{
 		background-color: rgba(58, 69, 97, 1) !important;
 	}
+	.read-more-box .read-more {
+			bottom: -60px; 
+	}	
 	#about .about-img{
 		padding-bottom: 30px;
 	}
@@ -606,6 +632,9 @@ footer p{
 	.banner-content h1{
 	font-size: 60px;
 	}
+	.read-more-box .read-more {
+			bottom: -60px; 
+	}		
 	#about .about-img{
 		padding-bottom: 40px;
 	}
@@ -661,6 +690,9 @@ footer p{
 	.about-content img{
 		height: 130px;
 	}
+	.read-more-box .read-more {
+			bottom: -35px; 
+	}	
 	#about .about-content {
     margin: -200px auto;
     width: 95%;
